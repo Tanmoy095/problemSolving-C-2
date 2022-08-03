@@ -1,0 +1,16 @@
+// 3. Write a program which will show the use of different built-in mathematical functions in C
+
+#include<stdio.h>
+#include <math.h>
+int main() {
+	printf("\nCeil function %f", ceil(4.6));
+	printf("\nFlooor function %f", floor(6.8));
+	printf("\nSquare function %f", sqrt(16));
+	printf("\nPow function %f", pow(4, 2));
+	printf("\nPow function %f", pow(3, 3));
+	printf("\nAbsolute function %d", abs(5-7));
+	printf("\nAbsolute function %f", round(5.6));
+	return 0;
+}
+
+
